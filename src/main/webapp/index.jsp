@@ -12,8 +12,8 @@
         <title>TA Start</title>
     </head>
     <body>
-        <h1>Rimek Artem IP-11 Labs</h1>
-        <p>This is a paragraph</p>
+        <h1>Rimek Artem IP-11</h1>
+        <p>This is a labs</p>
         
         <form action="lab1.jsp">
             
