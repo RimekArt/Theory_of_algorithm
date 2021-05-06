@@ -21,8 +21,6 @@ public class MyFirstJavaClass {
         this.myInt = myInt;
     }
     
-    
-    
     public static int getMyStaticInt() {
         return myStaticInt;
     }

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package knu.fit.ist.ta.lab2;
+package knu.fit.ist.ta.lab3;
 
 import java.io.IOException;
 import javax.servlet.ServletConfig;
@@ -19,8 +19,8 @@ import org.springframework.web.context.support.SpringBeanAutowiringSupport;
  *
  * @author 1
  */
-@WebServlet(name = "Lab2Servlet", urlPatterns = {"/lab2"})
-public class Lab2Servlet extends HttpServlet {
+@WebServlet(name = "Lab3_Servlet", urlPatterns = {"/lab3"})
+public class Lab3_Servlet extends HttpServlet {
     
     /*@Autowired
     Lab2View lab2view;
@@ -71,11 +71,12 @@ public class Lab2Servlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
-        Lab2View lab2view = new Lab2View();
+        Lab3View lab3view = new Lab3View();
         
-        String result = lab2view.showResult(request.getParameter("x"));
-        request.setAttribute("result", result);
-        request.getRequestDispatcher("lab2.jsp").forward(request,response);
+        String result = lab3view.showResult(request.getParameter("k"),request.getParameter("n"));
+        request.setAttribute("result", result);        
+        request.getRequestDispatcher("lab3.jsp").forward(request,response);
+        
         
         
     }
