@@ -12,7 +12,7 @@ package knu.fit.ist.ta.lab2;
 public class Calculate {
     
     
-    public static float lab2equation(float x){
+    public static float lab2equation(float x){ 
         
     float a = -7;
     float b = -10;

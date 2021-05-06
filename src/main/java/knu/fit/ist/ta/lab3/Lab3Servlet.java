@@ -19,8 +19,8 @@ import org.springframework.web.context.support.SpringBeanAutowiringSupport;
  *
  * @author 1
  */
-@WebServlet(name = "Lab3_Servlet", urlPatterns = {"/lab3"})
-public class Lab3_Servlet extends HttpServlet {
+@WebServlet(name = "Lab3Servlet", urlPatterns = {"/lab3"})
+public class Lab3Servlet extends HttpServlet {
     
     /*@Autowired
     Lab2View lab2view;
@@ -77,9 +77,10 @@ public class Lab3_Servlet extends HttpServlet {
         request.setAttribute("result", result);        
         request.getRequestDispatcher("lab3.jsp").forward(request,response);
         
+       
+                
         
-        
-    }
+    } 
 
     /**
      * Returns a short description of the servlet.

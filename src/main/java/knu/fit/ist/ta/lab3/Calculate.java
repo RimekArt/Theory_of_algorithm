@@ -5,6 +5,8 @@
  */
 package knu.fit.ist.ta.lab3;
 
+import static java.lang.Math.pow;
+
 /**
  *
  * @author 1
@@ -12,8 +14,16 @@ package knu.fit.ist.ta.lab3;
 public class Calculate {
     
     public static float lab3equation(float k, float n){
-    
-    return k+n;
+        
+        float sum = 0;
+        while(k<n+1)
+        {
+            sum = sum + (k*k)/*(float)Math.pow(k,2)*/;
+            k++;
+        }
+
+        
+    return sum;
     }
     
 }

@@ -17,6 +17,8 @@ public class Lab3View {
     
     DecimalFormat df = new DecimalFormat("###.##");
     
+    
+    
     public String showResult(String kString, String nString){
         if(kString.equals("")){return "Please enter k";}
         Float k = Float.parseFloat(kString);
@@ -27,6 +29,8 @@ public class Lab3View {
         if(1<1){return "";}
         else if(1<1){return "";}
         else {return df.format(Calculate.lab3equation(k,n));}
+        
+        /*return "";*/
             
     
     }
