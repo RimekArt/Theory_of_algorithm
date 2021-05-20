@@ -18,7 +18,7 @@ public class Calculate {
         float sum = 0;
         while(k<n+1)
         {
-            sum = sum + (k*k)/*(float)Math.pow(k,2)*/;
+            sum = sum + (k*k);
             k++;
         }
 
