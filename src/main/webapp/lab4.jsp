@@ -13,7 +13,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>This is Lab2</h1>
+        <h1>This is Lab4</h1>
         <p> <%! TextProcessor textProcessor = new TextProcessor(
                     "IoT is tagging our day-to-day objects with machine-readable"
                 +"identification tags. Sensors may be a couple with these tags "
