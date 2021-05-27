@@ -12,7 +12,7 @@
     
     <body>
         <div class="container">
-            <form action="index.jsp">  
+            <form action="index.jsp">
                 <input type="submit" value="Home">
             </form>
             <h1>This is Lab6</h1>
