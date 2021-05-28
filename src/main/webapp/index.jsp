@@ -57,5 +57,12 @@
             </form>
         </div>
         
+        <div>
+            <form action="lab8.jsp">
+            
+                <input type="submit" value="Lab8">
+            </form>
+        </div>
+        
     </body>
 </html>
