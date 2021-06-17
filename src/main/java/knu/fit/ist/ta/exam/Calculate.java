@@ -3,16 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package knu.fit.ist.ta.lab5;
+package knu.fit.ist.ta.exam;
 
-import java.util.Comparator;
 
 /**
  *
  * @author 1
  */
-public class ByStringComparer implements Comparator<Model> {
-    public int compare(Model a, Model b){
-      return a.getStringField().compareTo(b.getStringField());
+public class Calculate {
+    
+    public static float Calculator(double x)
+    {
+        return (float) (7/(7*x-5));
     }
+    
 }
+

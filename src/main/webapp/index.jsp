@@ -13,56 +13,17 @@
     </head>
     <body>
         <h1>Rimek Artem IP-11</h1>
-        <p>This is a labs</p>
+        <p>Exam #18</p>
+        
+        
         
         <div>
-            <form action="lab1.jsp">
+            <form action="exam.jsp">
             
-                <input type="submit" value="Lab1">
-            </form>
-        </div>
-        
-        <div>
-            <form action="lab2form.jsp">
-            
-                <input type="submit" value="Lab2">
-            </form>
-        </div>
-        
-        <div>
-            <form action="lab3form.jsp">
-            
-                <input type="submit" value="Lab3">
-            </form>
-        </div>
-        
-        <div>
-            <form action="lab4.jsp">
-            
-                <input type="submit" value="Lab4">
-            </form>
-        </div>
-        
-        <div>
-            <form action="lab5.jsp">
-            
-                <input type="submit" value="Lab5">
-            </form>
-        </div>
-        
-        <div>
-            <form action="lab6.jsp">
-            
-                <input type="submit" value="Lab6">
-            </form>
-        </div>
-        
-        <div>
-            <form action="lab8.jsp">
-            
-                <input type="submit" value="Lab8">
+                <input type="submit" value="Exam">
             </form>
         </div>
         
     </body>
 </html>
+

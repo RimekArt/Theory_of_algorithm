@@ -20,6 +20,10 @@
         <servlet-name>Lab7Servlet</servlet-name>
         <servlet-class>knu.fit.ist.ta.lab7.Lab7Servlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Servlet</servlet-name>
+        <servlet-class>knu.fit.ist.ta.exam.Servlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Lab3Servlet</servlet-name>
         <url-pattern>/lab3</url-pattern>
@@ -31,6 +35,10 @@
     <servlet-mapping>
         <servlet-name>Lab7Servlet</servlet-name>
         <url-pattern>/Lab7Servlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Servlet</servlet-name>
+        <url-pattern>/Servlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
