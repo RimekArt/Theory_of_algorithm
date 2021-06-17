@@ -50,18 +50,5 @@ public class Results {
         return results.toString();
     }
     
-    public String GetArgs()
-    {
-        return args.toString();
-    }
-    
-    public static int SearchResult(double value)
-    {
-        int length = results.size();
-        for (int i = 0; i < length; i++)
-            if(results.get(i) == value)
-                return i + 1;
-        
-        return -1;
-    }
+  
 }

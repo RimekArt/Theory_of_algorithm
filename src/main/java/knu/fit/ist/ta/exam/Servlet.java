@@ -23,8 +23,8 @@ public class Servlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
         throws ServletException, IOException {
         String x = request.getParameter("x");
-        double param = Double.parseDouble(x);
-        double result = Calculate.Calculator(param);
+        float param = Float.parseFloat(x);
+        float result = Calculate.Calculator(param);
         request.setAttribute("result", result);
         request.getRequestDispatcher("index.jsp").forward(request, response);
     }

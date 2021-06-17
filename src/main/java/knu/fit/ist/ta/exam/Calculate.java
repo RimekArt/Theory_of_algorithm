@@ -12,9 +12,9 @@ package knu.fit.ist.ta.exam;
  */
 public class Calculate {
     
-    public static float Calculator(double x)
+    public static float Calculator(float x)
     {
-        return (float) (7/(7*x-5));
+        return (Float)(7/(7*x-5));
     }
     
 }
