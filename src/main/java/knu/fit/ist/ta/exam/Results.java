@@ -32,12 +32,11 @@ public class Results {
             args.add((float)random.nextInt(100));
     }
     
-    public void SetArgs(float[] args)
+    public String GetArgs()
     {
-        this.args.clear();
-        for (int i = 0; i < args.length; i++)
-            this.args.add(args[i]);
+        return args.toString();
     }
+
     
     public String Calculate()
     {
